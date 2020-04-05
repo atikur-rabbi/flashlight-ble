@@ -20,7 +20,8 @@
         <allow-intent href="market:*" />
     </platform>
     <plugin name="cordova-plugin-whitelist" />
-    <plugin name="cordova-plugin-ble-peripheral"  />
-    <plugin name="cordova-plugin-flashlight"  />
-    <plugin name="cordova-custom-config"  />
+
+    <gap:plugin name="cordova-plugin-ble-peripheral" source="npm" />
+    <gap:plugin name="cordova-plugin-flashlight" source="npm" />
+    <gap:plugin name="cordova-custom-config" source="npm" />
 </widget>
