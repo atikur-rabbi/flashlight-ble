@@ -19,16 +19,8 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
-    <platform name="ios">
-        <config-file parent="UIBackgroundModes" target="*-Info.plist">
-            <array>
-                <string>bluetooth-peripheral</string>
-            </array>
-        </config-file>
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
-    </platform>
-    <plugin name="cordova-plugin-ble-peripheral" spec="~1.0.0" />
-    <plugin name="cordova-plugin-flashlight" spec="^3.2.0" />
-    <plugin name="cordova-custom-config" spec="~2.0.0" />
+
+    <plugin name="cordova-plugin-ble-peripheral"  />
+    <plugin name="cordova-plugin-flashlight"  />
+    <plugin name="cordova-custom-config"  />
 </widget>
